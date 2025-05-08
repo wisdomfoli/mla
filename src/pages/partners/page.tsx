@@ -11,7 +11,7 @@ import WGH from '../../assets/logos/partners/Logo WGH TOGO.png'
 import kekely from '../../assets/logos/partners/Logo-kekely.png'
 import Eden from '../../assets/logos/partners/Logo-Optics-Eden-light.png'
 import precyeux from '../../assets/logos/partners/logo-precyeux.svg'
-import Sécurité from '../../assets/logos/partners/M. Sécurité et de la protection civile.png'
+// import Sécurité from '../../assets/logos/partners/M. Sécurité et de la protection civile.png'
 import MEPTSA from '../../assets/logos/partners/MEPTSA_.png'
 import SOSDrTV from '../../assets/logos/partners/SOS Dr TV_.png'
 import Zener from '../../assets/logos/partners/Zener.png'
@@ -83,10 +83,10 @@ const partners = [
         name: 'MEPTSA',
         image: MEPTSA
     },
-    {
-        name: 'Sécurité et de la protection civile',
-        image: Sécurité
-    }
+    // {
+    //     name: 'Sécurité et de la protection civile',
+    //     image: Sécurité
+    // }
 ]
 function Page() {
     return (
