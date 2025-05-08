@@ -1,5 +1,5 @@
 import Banner from "../../components/Banner.tsx";
-import banner from "../../../public/assets/images/J1/DSC_2184.jpg";
+import banner from "../../assets/images/J1/DSC_2184.jpg";
 import { Diamond } from "lucide-react";
 import Breadcrumbs from "../../components/Breadcrumbs.tsx";
 

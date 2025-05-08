@@ -1,9 +1,9 @@
 import {useState} from "react";
 import { Heart } from 'lucide-react';
 // import hero_img from '/assets/images/J1/DSC_2181.jpg'
-// import hero_img from '/assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.17 AM.jpeg'
-import hero_img from '/assets/images/J1/DSC_2436.jpg'
-import logo_mission from '/assets/logos/logo_white.png'
+// import hero_img from '/assets/images/realisations/cancer_banner.jpeg'
+import hero_img from '../assets/images/J1/DSC_2436.jpg'
+import logo_mission from '../assets/logos/logo_white.png'
 
 
 function HeroSection() {

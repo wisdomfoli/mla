@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo_mission from "../../public/assets/logos/logo_white.png";
+import logo_mission from "../assets/logos/logo_white.png";
 
 const ShareForCuresSection = () => {
     return (

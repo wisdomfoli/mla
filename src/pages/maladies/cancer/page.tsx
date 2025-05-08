@@ -1,16 +1,13 @@
 import {ChevronDown, ChevronUp, ExternalLink} from 'lucide-react';
 import Banner from "../../../components/Banner.tsx";
-import banner from "/assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.17 AM.jpeg";
 import Breadcrumbs from "../../../components/Breadcrumbs.tsx";
 import {useState} from "react";
-import img_1 from "/assets/images/J1/DSC_2425.jpg";
-import img_2 from "/assets/images/J1/DSC_2357.jpg";
-import img_3 from "/assets/images/J1/DSC_2470.jpg";
+import banner from '../../../assets/images/realisations/cancer_banner.jpeg'
 
 function Page() {
-    const [openItems, setOpenItems] = useState({});
+    const [openItems, setOpenItems] = useState<Record<string, boolean>>({});
 
-    const toggleItem = (item:any) => {
+    const toggleItem = (item: string) => {
         setOpenItems(prev => ({
             ...prev,
             [item]: !prev[item]
@@ -27,9 +24,9 @@ function Page() {
         'DCIS',
         'Metastatic Breast Cancer',
         'Survivorship Topics'
-    ];
+    ] as const;
 
-    const itemContents = {
+    const itemContents: Record<string, string> = {
         'Signs & Symptoms': 'Contenu détaillé sur les signes et symptômes...',
         'Facts & Statistics': 'Données statistiques importantes...',
         // Ajoutez le contenu pour chaque élément ici
@@ -94,7 +91,7 @@ function Page() {
                             {/* Card 1 */}
                             <div className="space-y-4">
                                 <img
-                                    src={img_1}
+                                    src="/src/assets/images/J1/DSC_2425.jpg"
                                     alt="Doctor and patient discussion"
                                     className="w-full h-48 object-cover"
                                 />
@@ -108,7 +105,7 @@ function Page() {
                             {/* Card 2 */}
                             <div className="space-y-4">
                                 <img
-                                    src={img_2}
+                                    src="/src/assets/images/J1/DSC_2357.jpg"
                                     alt="Group exercise"
                                     className="w-full h-48 object-cover"
                                 />
@@ -122,7 +119,7 @@ function Page() {
                             {/* Card 3 */}
                             <div className="space-y-4">
                                 <img
-                                    src={img_3}
+                                    src="/src/assets/images/J1/DSC_2470.jpg"
                                     alt="Medical consultation"
                                     className="w-full h-48 object-cover"
                                 />

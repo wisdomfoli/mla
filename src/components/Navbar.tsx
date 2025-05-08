@@ -1,6 +1,5 @@
 import { Search, Heart, ChevronDown, ChevronRight, Menu, X } from 'lucide-react';
-import { useState } from 'react';
-import logo from '../../public/assets/logos/logo.png';
+import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -153,16 +152,18 @@ function Navbar() {
                         <div className="flex flex-col md:flex-row justify-between items-center">
                             {/* Logo et menu mobile */}
                             <div className="flex items-center justify-between w-full md:w-auto">
-                                <div className="text-xl lg:text-2xl font-bold">
-                                    <Link to='/'>
-                                        <img
-                                            src={logo}
-                                            width={100}
-                                            height={100}
-                                            alt="Logo"
-                                            className="cursor-pointer"
-                                        />
-                                    </Link>
+                                <div className="flex items-center">
+                                    <div className="text-xl lg:text-2xl font-bold">
+                                        <Link to='/'>
+                                            <img
+                                                src="/src/assets/logos/logo.png"
+                                                width={100}
+                                                height={100}
+                                                alt="Logo"
+                                                className="cursor-pointer"
+                                            />
+                                        </Link>
+                                    </div>
                                 </div>
 
                                 {/* Bouton menu mobile */}

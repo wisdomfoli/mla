@@ -1,6 +1,6 @@
-import img_2 from '/assets/images/realisations/WhatsApp Image 2025-04-04 at 5.39.28 AM.jpeg'
-import img_1 from '/assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM (3).jpeg'
-import img_3 from '/assets/images/J1/DSC_2408.jpg'
+import img_2 from '../assets/images/realisations/WhatsApp Image 2025-04-04 at 5.39.28 AM.jpeg'
+import img_1 from '../assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM (3).jpeg'
+import img_3 from '../assets/images/J1/DSC_2408.jpg'
 
 const FeatureSection = () => {
     return (

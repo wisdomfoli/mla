@@ -1,6 +1,6 @@
 import {useState} from "react";
-import partner_img from '../../public/assets/images/J1/DSC_2192.jpg'
-import logo from "../../public/assets/logos/logo.png";
+import partner_img from '../assets/images/J1/DSC_2192.jpg'
+import logo from "../assets/logos/logo.png";
 
 interface FormData {
     firstName: string;

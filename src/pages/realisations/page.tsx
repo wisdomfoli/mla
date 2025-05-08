@@ -1,13 +1,13 @@
 import Banner from "../../components/Banner.tsx";
-import banner from "../../../public/assets/images/J1/DSC_2409.jpg";
+import banner from "../../assets/images/J1/DSC_2409.jpg";
 import Breadcrumbs from "../../components/Breadcrumbs.tsx";
 import Fancybox from "../../components/Fancybox.tsx";
-import activity1 from "../../../public/assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM.jpeg";
-import activity2 from "../../../public/assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM.jpeg";
-import activity3 from "../../../public/assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM.jpeg";
-import activity4 from "../../../public/assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM.jpeg";
-import activity5 from "../../../public/assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM.jpeg";
-import activity6 from "../../../public/assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM.jpeg";
+import activity1 from "../../assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM.jpeg";
+import activity2 from "../../assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM.jpeg";
+import activity3 from "../../assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM.jpeg";
+import activity4 from "../../assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM.jpeg";
+import activity5 from "../../assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM.jpeg";
+import activity6 from "../../assets/images/realisations/WhatsApp Image 2025-04-04 at 5.40.19 AM.jpeg";
 
 function Page() {
     const activities = [

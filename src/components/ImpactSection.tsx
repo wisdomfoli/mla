@@ -26,13 +26,13 @@ const ImpactSection = () => {
 
                 <div className="mt-10 flex flex-col items-center justify-center gap-4 md:flex-row">
                     <Link
-                        to="/notre-impact"
+                        to="#"
                         className="text-pink-500 outline-pink-500 outline-1 p-4"
                     >
                         EN SAVOIR PLUS
                     </Link>
                     <Link
-                        to="/don"
+                        to="#"
                         className="bg-pink-500 p-4 text-white"
                     >
                         FAIRE UN DON

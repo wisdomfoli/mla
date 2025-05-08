@@ -1,4 +1,4 @@
-import banner from "../../../public/assets/images/J1/DSC_2606.jpg";
+import banner from "../../assets/images/J1/DSC_2606.jpg";
 import Banner from "../../components/Banner.tsx";
 import {useState} from "react";
 

@@ -1,8 +1,7 @@
 import {RssIcon, Search} from 'lucide-react';
 import Breadcrumbs from "../../components/Breadcrumbs.tsx";
-import blog_img_1 from '../../../public/assets/images/J1/DSC_2209.jpg'
-import blog_img_2 from '../../../public/assets/images/J1/DSC_2344.jpg'
-
+import blog_1 from '../../assets/images/J1/DSC_2209.jpg'
+import blog_2 from '../../assets/images/J1/DSC_2344.jpg'
 
 interface BlogPost {
     id: number;
@@ -20,7 +19,7 @@ const blogPosts: BlogPost[] = [
         date: "APRIL 8, 2025",
         category: "PERSONAL STORIES",
         excerpt: "At 25, Harley Stuebgen never expected to become a caregiver for her mom after a breast cancer diagnosis. But when her mother, Kim, was diagnosed in 2023, Harley stepped into the role of caregiver. From standing by her mother through surgery to organizing a fundraiser in her honor, Harley's journey highlights the powerful bond between mother and daughter and the strength found within a supportive community.",
-        image: blog_img_1
+        image: blog_1
     },
     {
         id: 2,
@@ -28,7 +27,7 @@ const blogPosts: BlogPost[] = [
         date: "APRIL 4, 2025",
         category: "PERSONAL STORIES",
         excerpt: "Months after having twins, Kira was shocked to learn she had stage 2 triple positive breast cancer. Kira and her husband, already parents to a son, welcomed the twins in July 2019. \"In October, I discovered a lump, but initially I thought it was a blockage in the breast,\" Kira said. She started looking for ideas...",
-        image: blog_img_2
+        image: blog_2
     }
 ];
 
