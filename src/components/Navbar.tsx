@@ -14,17 +14,17 @@ function Navbar() {
             title: "A propos de MLA",
             subItems: [
                 { title: "À propos du cancer du sein", link: "/cancer-seins" },
-                { title: "Faits et statistiques", link: "/statistiques" },
-                { title: "Signes et symptômes", link: "/symptomes" },
-                { title: "Facteurs de risque", link: "/facteurs-risque" },
-                { title: "Dépistage et détection", link: "/depistage" },
-                { title: "Diagnostic", link: "/diagnostic" },
-                { title: "Traitement", link: "/traitement" },
-                { title: "CCIS (Carcinome canalaire in situ)", link: "/ccis" },
-                { title: "Cancer du sein métastatique", link: "/metastatique" },
-                { title: "Sujets liés à la survie", link: "/survie" },
-                { title: "Quoi de neuf dans le cancer du sein", link: "/actualites" },
-                { title: "Équité en santé", link: "/equite-sante" }
+                { title: "Faits et statistiques", link: "#statistiques" },
+                { title: "Signes et symptômes", link: "#symptomes" },
+                { title: "Facteurs de risque", link: "#facteurs-risque" },
+                { title: "Dépistage et détection", link: "#depistage" },
+                { title: "Diagnostic", link: "#diagnostic" },
+                { title: "Traitement", link: "#traitement" },
+                { title: "CCIS (Carcinome canalaire in situ)", link: "#ccis" },
+                { title: "Cancer du sein métastatique", link: "#metastatique" },
+                { title: "Sujets liés à la survie", link: "#survie" },
+                { title: "Quoi de neuf dans le cancer du sein", link: "#actualites" },
+                { title: "Équité en santé", link: "#equite-sante" }
             ],
             link: '/a-propos'
         },

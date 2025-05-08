@@ -26,7 +26,7 @@ function Footer() {
                         to="#"
                         className="inline-block px-6 py-2 border-2 border-white rounded-md text-white hover:bg-pink-600 hover:border-pink-600 transition-colors duration-300"
                     >
-                        CRÉER UNE PAGE D’HOMMAGE
+                        CRÉER UNE PAGE D'HOMMAGE
                     </Link>
                 </div>
 
@@ -65,7 +65,7 @@ function Footer() {
                                 className="flex-grow rounded-md border border-gray-300 px-3 py-2 text-gray-900 focus:outline-none focus:ring-2 focus:ring-pink-500"
                             />
                             <button className="bg-pink-600 cursor-pointer hover:bg-pink-700 text-white font-bold px-6 py-2 rounded">
-                                S’INSCRIRE
+                                S'INSCRIRE
                             </button>
                         </div>
                     </div>
@@ -80,9 +80,9 @@ function Footer() {
                     <ul className="space-y-2">
                         {[
                             { text: "À propos de Nous", to: "/a-propos" },
-                            { text: "Direction", to: "#" },
-                            { text: "Informations financières", to: "#" },
-                            { text: "Carrières", to: "#" },
+                            { text: "Direction", to: "#direction" },
+                            { text: "Informations financières", to: "#informations-financieres" },
+                            { text: "Carrières", to: "#carrieres" },
                         ].map((item, index) => (
                             <li key={index}>
                                 <Link to={item.to} className="text-gray-300 hover:text-pink-400 transition-colors duration-300">
@@ -98,12 +98,12 @@ function Footer() {
                     <h3 className="mb-4 text-lg font-bold text-white">Explorer</h3>
                     <ul className="space-y-2">
                         {[
-                            { text: "Subventions", to: "#" },
-                            { text: "Collecter des fonds", to: "#" },
-                            { text: "Trouver un événement", to: "#" },
-                            { text: "Conditions d’utilisation", to: "/conditions-utilisation/" },
+                            { text: "Subventions", to: "#subventions" },
+                            { text: "Collecter des fonds", to: "#collecter-des-fonds" },
+                            { text: "Trouver un événement", to: "#trouver-un-evenement" },
+                            { text: "Conditions d'utilisation", to: "/conditions-utilisation/" },
                             { text: "Politique de confidentialité", to: "/politique-confidentialite/" },
-                            { text: "Plan du site", to: "/sitemap/" }
+                            { text: "Plan du site", to: "#sitemap" }
                         ].map((item, index) => (
                             <li key={index}>
                                 <Link to={item.to} className="text-gray-300 hover:text-pink-400 transition-colors duration-300">
@@ -120,8 +120,8 @@ function Footer() {
                     <ul className="space-y-2">
                         {[
                             { text: "Blog", to: "/blog/" },
-                            { text: "Salle de presse", to: "#" },
-                            { text: "Partagez votre histoire", to: "#" }
+                            { text: "Salle de presse", to: "#salle-de-presse" },
+                            { text: "Partagez votre histoire", to: "#partagez-votre-histoire" }
                         ].map((item, index) => (
                             <li key={index}>
                                 <Link to={item.to} className="text-gray-300 hover:text-pink-400 transition-colors duration-300">
@@ -137,7 +137,7 @@ function Footer() {
                     <h3 className="mb-4 text-lg font-bold text-white">Contact</h3>
                     <ul className="space-y-4">
                         <li>
-                            <p className="font-bold text-white text-xl">Ligne d’aide :</p>
+                            <p className="font-bold text-white text-xl">Ligne d'aide :</p>
                             <a href="https://wa.me/22892888822" className="flex items-center underline font-bold text-white mb-2 hover:text-pink-400">
                                 (+228) 92888822
                             </a>
